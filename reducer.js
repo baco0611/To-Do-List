@@ -2,6 +2,15 @@ import storage from "./util/storage.js"
 
 const init = {
     todos: storage.get(),
+    // todos: [
+    //     {
+    //         "title":"Learn React",
+    //         "completed":false
+    //     },
+    //     {   "title":"Learn JavaScript",
+    //         "completed": false
+    //     }
+    // ],
     filter: 'all',
     filters: {
         all: () => true,
